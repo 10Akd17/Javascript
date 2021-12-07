@@ -11,7 +11,7 @@ var nb = prompt("veuillez saisir un nombre entre 50 et 100");
 
 function saisienombre(nb) {
     if ((nb >= a) && (nb <= b)) {
-        document.write(nb + " est entre " + a + b + ".");
+        document.write( nb + " est entre " + a + b + ".");
     } else {
        return nb;
     }
